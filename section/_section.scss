@@ -15,7 +15,7 @@ h1{
 
 }
 .img-container img{
-    width: 88%;
+    width:  100%;
     height: fit-content;
 }
 .logos{
@@ -34,6 +34,7 @@ h1{
     color: #fff;
     font-size: 15px;
     transition: all 1s;
+    cursor: pointer;
 
 }
 .hero-btn:hover{
@@ -42,4 +43,5 @@ h1{
     color: grey;
     font-family: bold;
     transition: all 1s;
+    cursor: pointer;
 }

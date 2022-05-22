@@ -58,6 +58,17 @@ nav {
   color: white;
   font-family: bold;
   transition: all 1s;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: all 1s;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: black;
 }
 
 h1 {
@@ -79,7 +90,7 @@ h1 {
 }
 
 .img-container img {
-  width: 88%;
+  width: 100%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -102,6 +113,7 @@ h1 {
   color: #fff;
   font-size: 15px;
   transition: all 1s;
+  cursor: pointer;
 }
 
 .hero-btn:hover {
@@ -110,6 +122,7 @@ h1 {
   color: grey;
   font-family: bold;
   transition: all 1s;
+  cursor: pointer;
 }
 
 * {
@@ -120,6 +133,5 @@ h1 {
 
 a {
   color: rgb(0, 0, 0);
-  margin: 10px;
-  display: inline-block;
+  display: inline;
 }/*# sourceMappingURL=style.css.map */
