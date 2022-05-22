@@ -5,5 +5,27 @@
     }
 }
 @media screen  and (max-width:1200px){
-    
+    .nav-btn{
+        display: none;
+
+    }
+    .nav-ul{
+        display: none;
+
+    }
+    .ham{
+        display: block;
+    }
+    .hero{
+        margin: 50px;
+        max-width: 960px;
+        grid-template-columns: repeat(1,max(200px, 350px));
+
+    }
+    .img-container{
+        grid-row:1 ;
+    }
+    .img-container img{
+        content: url(images/image-hero-mobile.png)
+    }
 }
