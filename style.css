@@ -26,10 +26,15 @@ nav {
   position: absolute;
   background-color: #fff;
   width: 120px;
+  z-index: 3;
 }
 
 * {
   text-decoration: none;
   list-style-type: none;
   font-family: "Epilogue", sans-serif;
+}
+
+a {
+  color: rgb(0, 0, 0);
 }/*# sourceMappingURL=style.css.map */
