@@ -2,6 +2,7 @@
   margin: 0;
   display: flex;
   padding: 0;
+  gap: 34px;
 }
 
 .overlay {
@@ -38,6 +39,15 @@ nav {
   border: none;
   background-color: transparent;
   outline: none;
+}
+
+.btn2 {
+  outline: none;
+  border: none;
+  padding: 10px 25px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 10px;
 }
 
 * {
