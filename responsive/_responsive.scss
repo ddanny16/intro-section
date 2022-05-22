@@ -28,4 +28,56 @@
     .img-container img{
         content: url(images/image-hero-mobile.png)
     }
+    .hero-text{
+        text-align: center;
+    }
+    .hero-btn{
+        margin: 0;
+    }
+    h1{
+        font-size: 30px;
+        margin: 0;
+        width:100%;
+        text-align: center;
+        
+    }
+    br {
+        display: none;
+    }
+    .mobile_nav {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        background-color: white;
+        padding: 20px;
+        width:300px;
+        height: 100vh;
+        align-items: flex-end;
+        // left: 0;
+        right: 0;
+        width: 45%;
+        // text-align: right;
+    }
+    .mobile_nav img{
+        text-align: right;
+    }
+
+    .overlay{
+        display: flex;
+    }
+    .mobile_nav_cont{
+        flex-direction: column;
+        width: 100%;
+        justify-content: end;
+        display: flex;
+
+    }
+    a{
+        margin: 0;
+
+    }
+    // .mobile_nav_cont {
+    //     padding: ;
+    // }
 }
