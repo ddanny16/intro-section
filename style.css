@@ -150,6 +150,12 @@ h1 {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1200px) {
+  .hero {
+    max-width: 960px;
+    grid-template-columns: repeat(2, 400px);
+  }
+}
 * {
   text-decoration: none;
   list-style-type: none;
