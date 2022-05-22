@@ -15,7 +15,7 @@ h1{
 
 }
 .img-container img{
-    width: 100%;
+    width: 88%;
     height: fit-content;
 }
 .logos{
@@ -32,4 +32,14 @@ h1{
     padding: 15px 25px;
     border-radius: 12px;
     color: #fff;
+    font-size: 15px;
+    transition: all 1s;
+
+}
+.hero-btn:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: grey;
+    font-family: bold;
+    transition: all 1s;
 }
