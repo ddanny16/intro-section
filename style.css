@@ -202,7 +202,20 @@ h1 {
     display: none;
   }
 
-  .mobile_nav {
+  .blur_overlay .is--active {
+    display: block;
+    transition: transform 0.5s;
+  }
+
+  .mobile_nav .is--active {
+    transform: translateX(0);
+  }
+
+  .mobile_nav img {
+    text-align: right;
+  }
+
+  .overlay.mobile_nav {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -214,14 +227,7 @@ h1 {
     align-items: flex-end;
     right: 0;
     width: 45%;
-  }
-
-  .mobile_nav img {
-    text-align: right;
-  }
-
-  .overlay {
-    display: flex;
+    width: 100%;
   }
 
   .mobile_nav_cont {
@@ -233,6 +239,10 @@ h1 {
 
   a {
     margin: 0;
+  }
+
+  .mobile_nav_cont > * {
+    padding: 20px;
   }
 }
 * {
