@@ -75,13 +75,6 @@ Remember, if you're looking for feedback on your solution, be sure to ask questi
   <img src="./images/logo.svg" alt="logo">
  <header>
   <a href="#" class="brand">
-         
-
-
-
-
-
-
 ## Sharing your solution
 
 There are multiple places you can share your solution:
