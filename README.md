@@ -3,6 +3,7 @@
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋.
+intr-sect
 
 Thanks for checking out this front-end coding challenge.
 
