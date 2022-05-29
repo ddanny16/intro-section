@@ -3,6 +3,7 @@
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
     j
 ## Welcome! 👋.
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
