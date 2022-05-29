@@ -123,6 +123,7 @@ h1 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  height: 100%;
 }
 
 .logos {
