@@ -44,61 +44,96 @@
     br {
         display: none;
     }
-    .mobile_nav {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 40px;
-        background-color: white;
-        padding: 20px;
-        width:300px;
-        height: 100vh;
-        align-items: flex-end;
-        // left: 0;
-        right: 0;
-        width: 45%;
-        // text-align: right;
-        // transform: translateX(100%);
-    }
-    .blur_overlay .is--active{
-        display: block;
-        transition: transform 0.5s;
-       
-    }
-    .mobile_nav .is--active{
-        transform: translateX(0);
-    }
-    .mobile_nav img{
-        text-align: right;
-    }
-    .show{
-        display: flex;
-        width:180px
-    }
 
-    .overlay{
-        display:inline-block;
-        width: 100%;
-        // height: 100vh;
-        // background-color: transparent;
-        z-index: 10;
-        background-color: aliceblue;
-        overflow-y: scroll;
-        transform: translateX(100%);
-        transition: transform 0.5s cubic-bezier(0.5, 0 , 0 , 0.75);
-    }
-    .mobile_nav_cont{
-        flex-direction: column;
-        width: 100%;
-        justify-content: end;
-        display: flex;
+    .mobile_nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    max-width: 34rem;
+    height: 100%;
+    z-index: 10;
+    // background-color: aliceblue;
+    background-color: white;
+    overflow-y: scroll;
+    transform: translateX(100%);
+    transition: transform 0.5s cubic-bezier(0.5, 0 , 0 , 0.75);
+    display: grid;
+    margin: auto auto;
+  
+    
+}
 
-    }
-    a{
-        margin: 0;
 
-    }
-    .mobile_nav_cont > * {
-        padding:20px ;
-    }
+.mobile_nav_cont{
+    display:flex;
+flex-direction: column;
+gap: 60px;
+margin-top: 30px;
+
+}
+.blur_overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left:0;
+width: 100%;
+height: 100%;
+z-index: 9;
+background:rgba( 0, 0, 0, 0.5);
+backdrop-filter: blur(1rem);
+
+
+}
+.blur_overlay.is--active{
+    display: block;
+    transition: transform 0.5s;
+   
+}
+
+.mobile_nav.is--active{
+    transform: translateX(0);
+}
+.overlay{
+    display: block;
+    width: 20%;
+    margin-left:05px;
+}
+.nav-btn1{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    width: 80%;
+}
+.closemenu{
+    margin-left: 85% ;
+    margin-top: 10px;
+}
+.padding{
+    display: flex;
+    margin-right:auto;
+    margin-left: auto;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.brand{
+    margin-right: auto;
+}
+.ham img{
+    position: relative;
+    margin-left: 9rem;
+}
+
+
+}
+@media screen  and (max-width:300px){
+.ppl{
+    padding: 0vw 10vh;
+}
+.logos{
+    display: grid;
+    grid-template-columns: repeat(2 ,200px);
+
+}
 }
