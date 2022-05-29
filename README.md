@@ -1,7 +1,7 @@
 # Frontend Mentor - Intro section with dropdown navigation.
 
 ![Design preview for the Intro section with dropdown navigation coding challenge](./design/desktop-preview.jpg)
-
+    j
 ## Welcome! 👋.
 
 Thanks for checking out this front-end coding challenge.
@@ -25,6 +25,7 @@ Your users should be able to:
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 ## Where to find everything
+
 
 Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
 
@@ -65,7 +66,7 @@ The template provides a guide for what to add. A custom `README` will help you e
 
 Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
 
-## Submitting your solution
+## Submitting your solution 
 
 Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
 
@@ -73,20 +74,6 @@ Remember, if you're looking for feedback on your solution, be sure to ask questi
 ##START
   <img src="./images/logo.svg" alt="logo">
  <header>
-  <a href="#" class="brand">
-         
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Sharing your solution
 
